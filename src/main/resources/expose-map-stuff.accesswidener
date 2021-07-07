@@ -1,0 +1,7 @@
+accessWidener	v1	named
+accessible   class   net/minecraft/client/render/MapRenderer$MapTexture
+accessible   method  net/minecraft/client/render/MapRenderer$MapTexture updateTexture ()V
+accessible   method  net/minecraft/client/render/MapRenderer$MapTexture <init> (Lnet/minecraft/client/render/MapRenderer;ILnet/minecraft/item/map/MapState;)V
+accessible   method  net/minecraft/client/render/MapRenderer            getMapTexture (ILnet/minecraft/item/map/MapState;)Lnet/minecraft/client/render/MapRenderer$MapTexture;
+accessible   field   net/minecraft/client/texture/NativeImage           pointer       J
+accessible   field   net/minecraft/client/world/ClientWorld             mapStates     Ljava/util/Map;
