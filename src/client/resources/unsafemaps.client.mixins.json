@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "academy.hekiyou.unsafemaps.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MapColorPrecomputeMixin",
+		"MapTextureMixin",
+		"UpdateDataMixin",
+		"MapRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "unsafemaps",
+	"version": "${version}",
+	"name": "UnsafeMaps",
+	"description": "Attempts to fix rapid map data slow downs by using unsafe methods",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/unsafemaps/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"academy.hekiyou.unsafemaps.UnsafeMaps"
+		]
+	},
+	"mixins": [
+		{
+			"config": "unsafemaps.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"accessWidener" : "expose-map-stuff.classTweaker"
+}
