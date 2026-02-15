@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.function.Supplier;
 
-@Mixin(MapTextureManager.MapTexture.class)
+@Mixin(targets = "net/minecraft/client/texture/MapTextureManager$MapTexture")
 public abstract class MapTextureMixin {
 
     @Shadow private boolean needsUpdate;

@@ -1,3 +1,2 @@
 classTweaker	v1	named
-accessible   class   net/minecraft/client/texture/MapTextureManager$MapTexture
 accessible   field   net/minecraft/block/MapColor                                   COLORS                    [Lnet/minecraft/block/MapColor;
